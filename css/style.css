@@ -10,7 +10,7 @@
     border: 2px lightgrey solid;
     width: 35rem;
     height: 15rem;
-    padding: 1rem;
+    padding: .5rem;
 }
 ul {
     list-style: none;
@@ -26,7 +26,7 @@ ul, li, p, a {
 }
 .topRight {
     position: absolute;
-    top: 1rem;
+    top: 2rem;
     left: 20rem;    
 }
 .bottom {
@@ -40,9 +40,16 @@ ul, li, p, a {
     border: 2px lightgrey solid;
     background-color: rgb(227, 252, 252);
 }
-.login {
+.fbook, .google, .twitter {
     width: 10rem;
+    height: 2rem;
     border: 1px red solid;
+}
+a:visited {
+    color: white;
+}
+.fbook {
+    background-color: rgb(57, 57, 238);
 }
 /* body {
     width: 100vw;
