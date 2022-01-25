@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+table {
+    border: 2px black solid;
+    padding: 3rem;
+    margin: 50%;
+    width: 20%;
+    margin: 25% 36% auto;
+}
+table tr td {
+    text-align: center;
+    border: 1px red solid;
+}
+table td:nth-child(1) {
+    columns: 2;
+}
+table tr:nth-child(2){
+    column-span: all;
