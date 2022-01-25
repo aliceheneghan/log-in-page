@@ -43,13 +43,21 @@ ul, li, p, a {
 .fbook, .google, .twitter {
     width: 10rem;
     height: 2rem;
-    border: 1px red solid;
+}
+a {
+    text-decoration: none;
 }
 a:visited {
     color: white;
 }
 .fbook {
-    background-color: rgb(57, 57, 238);
+    background-color: #507BBF;
+}
+.google {
+    background-color: #DB4A30;
+}
+.twitter {
+    background-color: #65CDF2;
 }
 /* body {
     width: 100vw;
