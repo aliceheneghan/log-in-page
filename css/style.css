@@ -9,8 +9,8 @@
     left: 42rem;
     border: 2px lightgrey solid;
     width: 35rem;
-    height: 15.5rem;
-    padding: .4rem;
+    height: 15rem;
+    padding: .5rem;
 }
 ul {
     list-style: none;
@@ -26,7 +26,7 @@ ul, li, p, a, h4 {
 }
 .topRight {
     position: absolute;
-    top: 1.6rem;
+    top: 2rem;
     left: 20rem;    
 }
 .bottom {
@@ -40,14 +40,16 @@ ul, li, p, a, h4 {
     border: 2px lightgrey solid;
     background-color: rgb(227, 252, 252);
 }
-p {
+.fbook, .google, .twitter {
     width: 10rem;
-    height: 2.2rem;
+    height: 2rem;
+}
+a {
+    text-decoration: none;
 }
 p > a {
-    text-decoration: none;
     color: white;
-}    
+}
 .fbook {
     background-color: #507BBF;
 }
@@ -57,33 +59,5 @@ p > a {
 .twitter {
     background-color: #65CDF2;
 }
-/* body {
-    width: 100vw;
-    height: 100vh;
-}
-table {
-    position: absolute;
-    padding: 1rem;
-    width: 30%;
-    margin: 22% 36% auto;
-    border: 1px gray solid;
-}
-table tr td {
-    text-align: center;
-    columns: 2;
-}
-caption {
-    caption-side: bottom;
-    border: 1px gray solid;
-    padding: .5rem;
-    background-color: rgb(227, 252, 252);
-}
-#left {
-    position: relative;
-    margin-left: 0rem;
-}
-#right {
-    position: relative;
-    margin-right: 0rem;
-} */
+
 
